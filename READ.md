@@ -1,6 +1,6 @@
 # 🧠 CNN Hyperparameter Optimization using DOE – CIFAR-10
 
-This project applies **Design of Experiments (DOE)** to optimize hyperparameters in a **Convolutional Neural Network (CNN)** for image classification using the CIFAR-10 dataset. Completed as part of the **Statistical Design Models (ESI 6247)** course at the University of South Florida.
+This project applies **Design of Experiments (DOE)** to optimize hyperparameters in a **Convolutional Neural Network (CNN)** for image classification using the CIFAR-10 dataset.
 
 ---
 

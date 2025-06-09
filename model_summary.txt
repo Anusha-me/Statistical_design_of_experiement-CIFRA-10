@@ -1,0 +1,24 @@
+🧠 CNN Model Summary – Hyperparameter Optimization using DOE
+
+This project utilizes a tunable Convolutional Neural Network (CNN) trained on the CIFAR-10 dataset.
+
+🧱 Architecture Overview:
+- 🌀 Conv2D Layer(s): 1 to 4 layers, kernel sizes ranging from 1 to 11
+- 🔽 MaxPooling2D: Reduces spatial dimensions
+- 📄 Flatten: Converts 2D feature maps to 1D vector
+- 🔢 Dense Layer(s): 50 to 300 neurons based on experiment design
+- 🧮 Output Layer: 10 neurons (Softmax activation for classification)
+
+⚙️ Optimizer: SGD with Momentum  
+📉 Loss Function: Categorical Crossentropy  
+📊 Evaluation Metric: Validation Accuracy
+
+🧪 Experimental Setup:
+- Used fractional factorial design (2⁵⁻¹) to identify key hyperparameters
+- Built a regression model to predict accuracy
+- Validated predictions with actual CNN outcomes
+
+📈 Key Result:
+- R² (model accuracy): **99.83%**
+
+✅ Best model selected based on minimum difference between predicted and actual accuracy.
